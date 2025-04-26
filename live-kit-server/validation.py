@@ -7,7 +7,7 @@ payload = {
     "duration": 75
 }
 
-url = "https://64cd-5-77-204-166.ngrok-free.app"
+url = "https://9de7-5-77-204-166.ngrok-free.app/validate_audio"
 
 response = requests.post(url, json=payload, headers={"Content-Type": "application/json"})
 
